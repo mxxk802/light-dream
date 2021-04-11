@@ -1,0 +1,63 @@
+/*表格标题*/
+.table-striped> thead>tr> th{
+    background-color: #1692e8;
+    font-family: Arial, "宋体";
+    font-size:10pt ;
+    padding: 0px;
+    height: 22px;
+}
+/*表格奇数行*/
+.table-striped > tbody > tr:nth-of-type(odd){
+    background-color: #C7E8FA;
+}
+/*表格偶数行*/
+.table-striped > tbody > tr:nth-of-type(even){
+    background-color: #F2F2F2;
+}
+
+.table-bordered tbody > tr > td{
+    border:1px solid #71C9D7;
+    font-size: 10pt;
+    padding:5px;
+    height:21px;
+}
+.table-bordered > thead > tr > th{
+    border:1px solid #71C9D7;
+    border-bottom-width: 4px;
+    border-bottom-color: #F2F2F2;
+    color:#ffffff;
+}
+.table > tbody > tr > td:first-child{
+    width:190px;
+}
+.title-block{
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.no-border > tbody > tr > td{
+    border-top: 0px;
+}
+.module-menu{
+    position:fixed;right:2%;top:20%;
+    z-index: 100;
+}
+
+
+
+/**标题**/
+.module-title{
+    color: #1692e8;
+    font-family: Arial,微软雅黑;
+    font-size: 12pt;
+    margin-left:10px;
+}
+/**标题标号**/
+.softNo{
+    font-size:12px;
+    color:#ffffff;
+    width:20px;
+    height:26px;
+    background-image: url('/static/image/img/grade.png');
+    padding-top: 5px;
+    text-align: center;
+}
